@@ -1,3 +1,9 @@
+@import '../variables';
+@import '../mixins';
+
+// Bootstrap si nécessaire (optionnel, mais évite les @import de home.scss)
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
 
 $font-primary: 'Poppins',Arial, sans-serif;
 $primary: #3e64ff;

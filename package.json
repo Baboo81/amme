@@ -34,5 +34,8 @@
     "bugs": {
         "url": "https://github.com/Baboo81/amme/issues"
     },
-    "homepage": "https://github.com/Baboo81/amme#readme"
+    "homepage": "https://github.com/Baboo81/amme#readme",
+    "dependencies": {
+        "bootstrap": "^5.3.8"
+    }
 }
