@@ -1,3 +1,13 @@
+// Variables personnalisées
+@import 'variables';
+@import 'mixins';
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Layout
+@import 'layout/nav';
+@import 'layout/footer';
 
 $turquoise: #00E8C3;
 $vertF: #00998E;
