@@ -17,8 +17,8 @@ return [
         'icon' => 'fa fa-cogs'
     ],
     [
-        'title' => 'Blog',
-        'url' => url('/blog'),
+        'title' => 'Outils',
+        'url' => url('/outils'),
         'icon' => 'fa fa-sticky-note'
     ],
     [

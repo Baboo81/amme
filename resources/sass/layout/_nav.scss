@@ -31,18 +31,22 @@ text-align: center;
   padding: 10px 0;
 }
 
-.footer { display: none; }
-
 ul.components li a span { display: block; font-size: 24px; margin-right: 0; }
 
 }
 
-.sidebar-logo
-{
-  width: 25rem;
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0;
+
+  .sidebar-logo {
+    max-width: 250px;
+    height: auto;
+    display: block;
+  }
 }
 
 ul.components { padding: 0; }
