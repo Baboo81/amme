@@ -9,21 +9,14 @@
             </a>
         </h1>
         <ul class="list-unstyled components mb-5">
-            <li class="active">
-                <a href="{{ url('/') }}"><span class="fa fa-home mx-1"></span>Accueil</a>
+            @foreach ( navData() as $item)
+            <li class="{{ request()->is($item['url']) ? 'active' : '' }}">
+                <a href="{{ $item['url'] }}">
+                    <span class="{{ $item['icon'] }}"></span>
+                    {{ $item['title'] }}
+                </a>
             </li>
-            <li>
-                <a href="{{ url('/about') }}"><span class="fa fa-user mx-1"></span>À propos</a>
-            </li>
-            <li>
-                <a href="{{ url('/blog') }}"><span class="fa fa-sticky-note mx-1"></span>Services</a>
-            </li>
-            <li>
-                <a href="{{ url('/services') }}"><span class="fa fa-cogs mx-1"></span>Outils</a>
-            </li>
-            <li>
-                <a href="{{ url('/contact') }}"><span class="fa fa-paper-plane mx-1"></span>Contact</a>
-            </li>
+            @endforeach
         </ul>
     </nav>
 </div>
