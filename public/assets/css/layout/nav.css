@@ -1,0 +1,64 @@
+:root {
+  --turquoise: #00E8C3;
+  --vertF: #00998E;
+  --vert: #7FB8A6;
+  --vertP: #BFE5D7;
+  --vertAqua: #F3FFFD;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+}
+
+#sidebar {
+  min-width: 270px;
+  max-width: 270px;
+  background: #BFE5D7;
+  color: #F3FFFD;
+  transition: all 0.3s;
+}
+#sidebar.active {
+  min-width: 80px;
+  max-width: 80px;
+  text-align: center;
+}
+#sidebar.active .logo {
+  padding: 10px 0;
+}
+#sidebar.active .footer {
+  display: none;
+}
+#sidebar.active ul.components li a span {
+  display: block;
+  font-size: 24px;
+  margin-right: 0;
+}
+#sidebar .sidebar-logo {
+  width: 25rem;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+#sidebar ul.components {
+  padding: 0;
+}
+#sidebar ul li a {
+  display: block;
+  color: #00998E;
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+#sidebar ul li a:hover {
+  color: #F3FFFD;
+  background: rgb(110.5979899497, 174.9020100503, 154.5954773869);
+}
+
+#content {
+  width: 100%;
+  padding: 0;
+  min-height: 100vh;
+  transition: all 0.3s;
+}
+
+/*# sourceMappingURL=nav.css.map */

@@ -12,7 +12,7 @@
 #sidebar {
   min-width: 270px;
   max-width: 270px;
-  background: #00998E;
+  background: #BFE5D7;
   color: #F3FFFD;
   transition: all 0.3s; }
   #sidebar.active {
@@ -27,16 +27,16 @@
       display: block;
       font-size: 24px;
       margin-right: 0; }
-  #sidebar .logo {
+  #sidebar .sidebar-logo {
+    width: 25rem;
+    max-width: 100%;
     display: block;
-    font-weight: 900;
-    padding: 10px 30px;
-    color: #F3FFFD; }
+    margin: 0 auto; }
   #sidebar ul.components {
     padding: 0; }
   #sidebar ul li a {
     display: block;
-    color: #F3FFFD;
+    color: #00998E;
     padding: 10px 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
     #sidebar ul li a:hover {

@@ -1,12 +1,6 @@
 @import '../variables';
 @import '../mixins';
 
-$turquoise: #00E8C3;
-$vertF: #00998E;
-$vert: #7FB8A6;
-$vertP: #BFE5D7;
-$vertAqua: #F3FFFD;
-
 :root
 {
   --turquoise: #{$turquoise};
@@ -24,7 +18,7 @@ width: 100%;
 #sidebar {
 min-width: 270px;
 max-width: 270px;
-background: $vertF;
+background: $vertP;
 color: $vertAqua;
 transition: all 0.3s;
 
@@ -43,18 +37,19 @@ ul.components li a span { display: block; font-size: 24px; margin-right: 0; }
 
 }
 
-.logo {
-display: block;
-font-weight: 900;
-padding: 10px 30px;
-color: $vertAqua;
+.sidebar-logo
+{
+  width: 25rem;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 ul.components { padding: 0; }
 
 ul li a {
 display: block;
-color: $vertAqua;
+color: $vertF;
 padding: 10px 30px;
 border-bottom: 1px solid rgba(255,255,255,.1);
 
