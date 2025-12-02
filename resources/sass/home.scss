@@ -1,14 +1,25 @@
-// Variables personnalisées
-@import 'variables';
-@import 'mixins';
+// ---------------------------------------------------
+// 1. Bootstrap en Dart Sass
+// ---------------------------------------------------
+// Assure-toi que Bootstrap est installé via npm
+// npm install bootstrap
+@use "../../node_modules/bootstrap/scss/bootstrap" as *;
 
-// Bootstrap
-@import "../../node_modules/bootstrap/scss/bootstrap";
+// ---------------------------------------------------
+// 2. Tes outils Sass (variables, mixins…)
+// ---------------------------------------------------
+@use 'variables' as *;
+@use 'mixins' as *;
 
-// Layout
-@import 'layout/nav';
-@import 'layout/footer';
+// ---------------------------------------------------
+// 3. Les layouts
+// ---------------------------------------------------
+//@use 'layout/nav' as *;
+//@use 'layout/footer' as *;
 
+// ---------------------------------------------------
+// 4. Variables CSS
+// ---------------------------------------------------
 $turquoise: #00E8C3;
 $vertF: #00998E;
 $vert: #7FB8A6;
@@ -17,14 +28,25 @@ $vertAqua: #F3FFFD;
 
 :root
 {
-    --turquoise: #{$turquoise};
-    --vertF: #{$vertF};
-    --vert: #{$vert};
-    --vertP: #{$vertP};
-    --vertAqua: #{$vertAqua};
+  --turquoise: #{$turquoise};
+  --vertF: #{$vertF};
+  --vert: #{$vert};
+  --vertP: #{$vertP};
+  --vertAqua: #{$vertAqua};
 }
 
-html
+// ---------------------------------------------------
+// 5. Styles globaux
+// ---------------------------------------------------
+body
 {
-    background-color: $vertP;
+  background: #1a1a1a;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(255,255,255,0.02),
+    rgba(255,255,255,0.02) 2px,
+    transparent 2px,
+    transparent 6px
+  );
 }
+

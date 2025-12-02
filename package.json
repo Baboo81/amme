@@ -5,7 +5,8 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "sass": "sass resources/sass:public/assets/css --watch",
+        "sass": "sass resources/sass/home.scss:public/css/home.css resources/sass/layout/_nav.scss:public/assets/css/layout/nav.css resources/sass/layout/_footer.scss:public/assets/css/layout/footer.css",
+        "sass:watch": "sass --watch resources/sass/home.scss:public/css/home.css resources/sass/layout/_nav.scss:public/assets/css/layout/nav.css resources/sass/layout/_footer.scss:public/assets/css/layout/footer.css",
         "dev:all": "concurrently \"npm run dev\" \"npm run sass\""
     },
     "devDependencies": {
