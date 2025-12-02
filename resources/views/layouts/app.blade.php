@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        @include('partials.header')
-        @yield('Styles')
-    </head>
+         @include('partials.nav')
     <body>
         <header>
-            @include('partials.nav')
+           @include('partials.header')
+           @yield('Styles')
         </header>
         <main>
             @yield('content')

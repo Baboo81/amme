@@ -18,4 +18,15 @@ if (! function_exists('navData')) {
 
         return [];
     }
+
+    function homeData(): array
+    {
+        $path = resource_path('data/homeData.php');
+
+        if (File::exists($path)) {
+            return include $path;
+        }
+
+        return [];
+    }
 }

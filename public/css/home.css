@@ -11867,7 +11867,7 @@ textarea.form-control-lg {
   --vertAqua: #F3FFFD;
 }
 
-body {
+html {
   background: #1a1a1a;
   background-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02) 2px, transparent 2px, transparent 6px);
 }
@@ -11875,7 +11875,9 @@ body {
 .banner-section {
   position: relative;
   height: 100vh;
-  background-image: url("../../public/assets/img/banner.jpg") no-repeat center center;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
 }
 .banner-section .overlay {

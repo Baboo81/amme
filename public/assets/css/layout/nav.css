@@ -17,6 +17,11 @@
   background: #BFE5D7;
   color: #F3FFFD;
   transition: all 0.3s;
+  position: fixed;
+  z-index: 3000 !important;
+  left: 0;
+  top: 0;
+  height: 100vh;
 }
 #sidebar.active {
   min-width: 80px;
