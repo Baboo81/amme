@@ -1,43 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 @use "../../node_modules/bootstrap/scss/bootstrap" as *;
 @use 'variables' as *;
 @use 'mixins' as *;
-
 :root {
-    --turquoise: #00E8C3;
-    --vertF: #00998E;
-    --vert: #7FB8A6;
-    --vertP: #BFE5D7;
-    --vertAqua: #F3FFFD;
-}
+  --turquoise: #00E8C3;
+  --vertF: #00998E;
+  --vert: #7FB8A6;
+  --vertP: #BFE5D7;
+  --vertAqua: #F3FFFD; }
 
 html {
-    background: #1a1a1a;
-    background-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02) 2px, transparent 2px, transparent 6px);
-}
+  font-family: "Roboto", sans-serif;
+  background: #1a1a1a;
+  background-image: repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.02) 2px, transparent 2px, transparent 6px); }
 
 .banner-section {
-    position: relative;
-    height: 100vh;
-    background-image: url("../img/banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-.banner-section .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  position: relative;
+  height: 100vh;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  .banner-section .overlay {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-.banner-section .container {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-align: center;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2); }
+  .banner-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; }
+    .banner-section .container h1 {
+      color: #00E8C3; }
 
 /*# sourceMappingURL=home.css.map */
