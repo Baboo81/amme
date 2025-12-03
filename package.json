@@ -37,6 +37,7 @@
     },
     "homepage": "https://github.com/Baboo81/amme#readme",
     "dependencies": {
+        "aos": "^2.3.4",
         "bootstrap": "^5.3.8"
     }
 }

@@ -1,5 +1,11 @@
 "use strict";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'aos/dist/aos.css';
+
+import 'bootstrap'; // JS Bootstrap
+import AOS from 'aos';
+
 /////////////////////////////
 //------ NAV --------------//
 ////////////////////////////
@@ -21,3 +27,20 @@ $('#sidebarCollapse').on('click', function () {
 });
 
 })(jQuery);
+
+/////////////////////////////
+//--- Section : About -----//
+////////////////////////////
+
+document.addEventListener('DOMContentLoaded', () => {
+// Initialiser AOS si ce n'est pas déjà fait
+
+    if (typeof AOS !== 'undefined') {
+        AOS.init({
+            duration: 600, // durée des animations
+            easing: 'ease-in-out',
+            once: true,    // n'anime qu'une fois
+            mirror: false
+        });
+    }
+});
