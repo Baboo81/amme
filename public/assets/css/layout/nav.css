@@ -10,8 +10,8 @@
   width: 100%; }
 
 #sidebar {
-  min-width: 80px !important;
-  max-width: 270px;
+  min-width: 100px !important;
+  max-width: 100px !important;
   background: #BFE5D7;
   color: #F3FFFD;
   transition: all 0.3s;
@@ -62,5 +62,16 @@
   padding: 0;
   min-height: 100vh;
   transition: all 0.3s; }
+
+/* Nav : btn */
+.toggle-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2000 !important;
+  border-radius: 8px;
+  padding: 10px 12px; }
+  .toggle-btn i {
+    font-size: 1.4rem; }
 
 /*# sourceMappingURL=nav.css.map */

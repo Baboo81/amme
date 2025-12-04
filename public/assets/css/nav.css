@@ -12,8 +12,8 @@
 }
 
 #sidebar {
-    min-width: 270px;
-    max-width: 270px;
+    min-width: 140px;
+    max-width: 140px;
     background: #BFE5D7;
     color: #F3FFFD;
     transition: all 0.3s;

@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ $meta['description'] ?? $metaDesc ?? '' }}">
     <meta name="keywords" content="{{ $meta['keywords'] ?? $metaKeyWords ?? '' }}">
-
-```
 <!-- Google Tag Manager -->
 <script>
     (function(w,d,s,l,i){
@@ -31,6 +29,7 @@
 <meta name="theme-color" content="#ffffff">
 
 <!-- CSS Libraries -->
+<link rel="stylesheet" href="{{ asset('assets/css/reset.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/home.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/css/nav.css') }}">
