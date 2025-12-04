@@ -1,4 +1,7 @@
-<!-- nav.blade.php -->
+<!-- Btn toggle sidebar -->
+<button id="sidebarCollapse" class="btn btn-primary toggle-btn">
+    <i class="bi bi-list"></i>
+</button>
 
 <div class="wrapper d-flex align-items-stretch">
     <!-- Sidebar -->
