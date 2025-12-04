@@ -45,29 +45,27 @@
 
             <div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="800">
                 <div class="about-content">
-                    <h2>Augmenter la performance de votre entreprise</h2>
-                    <p class="lead">Je me concentre sur l’élaboration de stratégies sur mesure qui naviguent dans la
-                        complexité et offrent des résultats tangibles à mes clients.</p>
-                    <p class="lead">Grâce à un mélange d’analyse sophistiquée et de résolution de problèmes créatifs, je donne à mes
-                        clients les moyens de prospérer sur des marchés en évolution rapide.</p>
+
+                    <h2>{{ homeData()['about']['title'] }}</h2>
+
+                    {{-- Paragraphes dynamiques --}}
+                    @foreach(homeData()['about']['paragraphs'] as $paragraph)
+                        <p class="lead">{{ $paragraph }}</p>
+                    @endforeach
 
                     <div class="row g-4 mt-3">
-                        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                            <div class="feature-item">
-                                <i class="bi bi-check-circle-fill"></i>
-                                <h5>Savoir soutenir</h5>
-                                <p>Je m'engage à fournir un service personnalisé et des solutions adaptées à chaque
-                                    engagement.</p>
+
+                        {{-- Features dynamiques --}}
+                        @foreach(homeData()['about']['features'] as $feature)
+                            <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                                <div class="feature-item">
+                                    <i class="{{ $feature['icon'] }}"></i>
+                                    <h5>{{ $feature['title'] }}</h5>
+                                    <p>{{ $feature['text'] }}</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                            <div class="feature-item">
-                                <i class="bi bi-lightbulb-fill"></i>
-                                <h5>Approche Moderne</h5>
-                                <p>J'adopte des méthodologies modernes pour développer des stratégies uniques qui
-                                    favorisent un succès durable.</p>
-                            </div>
-                        </div>
+                        @endforeach
+
                     </div>
                 </div>
             </div>
