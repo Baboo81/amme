@@ -20,8 +20,10 @@
     <div class="container section-title">
         <div class="row">
             <div class="col-3" data-aos="fade-down" data-aos-duration="1000">
-                <h2>À propos</h2>
-                <div><span>Méthode de travail</span> <span class="description-title my-3"></span></div>
+                <h2>
+                    {{ homeData()['about']['mainTitle'] ?? '' }}
+                </h2>
+                <div><span> {{ homeData()['about']['subTitle'] ?? '' }} </span> <span class="description-title my-3"></span></div>
             </div>
         </div>
     </div>

@@ -135,7 +135,7 @@ div {
     font-size: 1.3rem;
 
     &:first-child {
-      color: $vertP;
+      color: $turquoise;
     }
 
     &.description-title {
@@ -210,7 +210,7 @@ font-weight: 700;
 .lead {
   font-size: 1.15rem;
   margin-bottom: 1.25rem;
-  color: color-mix(in srgb, $vertF, transparent 30%);
+  color: color-mix(in srgb, $turquoise, transparent 30%);
 }
 
 p {

@@ -74,7 +74,7 @@ html, body {
         color: #00E8C3;
         font-size: 1.3rem; }
         .about .section-title div span:first-child {
-          color: #BFE5D7; }
+          color: #00E8C3; }
         .about .section-title div span.description-title {
           color: var(--default-color);
           font-size: 0.9rem; }
@@ -122,7 +122,7 @@ html, body {
 .about-content .lead {
   font-size: 1.15rem;
   margin-bottom: 1.25rem;
-  color: color-mix(in srgb, #00998E, transparent 30%); }
+  color: color-mix(in srgb, #00E8C3, transparent 30%); }
 .about-content p {
   margin-bottom: 1rem; }
 .about-content .feature-item {
