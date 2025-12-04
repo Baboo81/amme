@@ -69,11 +69,15 @@ html, body {
       display: flex;
       flex-direction: column;
       margin-top: 10px; }
-      .about .section-title div span:first-child {
-        color: var(--accent-color); }
-      .about .section-title div span.description-title {
-        color: var(--default-color);
-        font-size: 0.9rem; }
+      .about .section-title div span {
+        text-transform: uppercase;
+        color: #00E8C3;
+        font-size: 1.3rem; }
+        .about .section-title div span:first-child {
+          color: #BFE5D7; }
+        .about .section-title div span.description-title {
+          color: var(--default-color);
+          font-size: 0.9rem; }
 
 .about-image {
   border-radius: 8px;

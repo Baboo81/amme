@@ -19,9 +19,9 @@
     <!-- Section Title -->
     <div class="container section-title">
         <div class="row">
-            <div class="col-4" data-aos="fade-down" data-aos-duration="1000">
+            <div class="col-3" data-aos="fade-down" data-aos-duration="1000">
                 <h2>À propos</h2>
-                <div><span>En savoir plus sur ma façon de travailler</span> <span class="description-title">****</span></div>
+                <div><span>Méthode de travail</span> <span class="description-title my-3"></span></div>
             </div>
         </div>
     </div>
