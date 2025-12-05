@@ -98,7 +98,7 @@ html, body
 /* Section : Banner END*/
 
 /* Section : About*/
-.about {
+.about, .section-services {
 padding: 60px 0;
 
  .section-title {
@@ -199,7 +199,7 @@ overflow: hidden;
 
 }
 
-.about-content {
+.about-content, .service-header {
 h2 {
 font-size: 2.2rem;
 margin-bottom: 1.25rem;

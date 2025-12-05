@@ -75,33 +75,31 @@
 {{-- Section : about END --}}
 
 {{-- Section : services --}}
-<section id="services" class="services section">
+<section id="services" class="section-services">
 
     <!-- Section Title -->
     <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <div><span>Les services</span> <span class="description-title"></span></div>
+        <div class="col-3">
+            <h2>Services</h2>
+            <div><span>Méthode de travail</span> <span class="description-title"></span></div>
+        </div>
     </div><!-- End Section Title -->
 
     <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="service-header">
             <div class="row align-items-center">
-                <div class="col-lg-8 col-md-12">
+                <div class="col-lg-8 col-md-12 my-5">
                     <div class="service-intro">
-                        <h2 class="service-heading">
+                        <h2 class="service-heading mb-4">
                             <div>La digitalisation,</div>
                             <div><span>au service de votre entreprise</span></div>
                         </h2>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-12">
-                    <div class="service-summary">
-                        <p>
-                            We integrate forward-thinking strategies, creative approaches, and state-of-the-art
-                            technologies to deliver exceptional customer experiences that drive growth and engage target
-                            markets.
-                        </p>
+                        <article>
+                             <p class="lead">
+                                Votre partenaire comptable, au service de votre activité.<br />J'accompagne les indépendants dans la gestion quotidienne de leur comptabilité. Mon objectif, est d'offrir un service fiable, clair et accessible, afinque vous puissiez vous concentrer pleinement sur votre activité. De la tenue comptable au suivi de vos obligations fiscales, je vous propose un accompagnement personnalisé, adapté à votre réalité professionnelle.
+                            </p>
+                        </article>
                     </div>
                 </div>
             </div>
