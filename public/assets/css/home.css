@@ -10,7 +10,8 @@
   --vertAqua: #F3FFFD;
   --gris: #1b262c; }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   color: #F3FFFD;
@@ -45,20 +46,24 @@ html, body {
 
 /* Section : Banner END*/
 /* Section : About*/
-.about, .section-services {
+.about,
+.section-services {
   padding: 60px 0; }
-  .about .section-title, .section-services .section-title {
+  .about .section-title,
+  .section-services .section-title {
     display: flex;
     flex-direction: column;
     gap: 15px; }
-    .about .section-title h2, .section-services .section-title h2 {
+    .about .section-title h2,
+    .section-services .section-title h2 {
       display: flex;
       align-items: center;
       font-size: 1.1rem;
       font-weight: 700;
       text-transform: uppercase;
       color: color-mix(in srgb, rgba(255, 255, 255, 0.8), transparent 50%); }
-      .about .section-title h2::after, .section-services .section-title h2::after {
+      .about .section-title h2::after,
+      .section-services .section-title h2::after {
         content: "";
         display: block;
         height: 1px;
@@ -66,19 +71,24 @@ html, body {
         margin-left: 15px;
         background-color: #00998E; }
       @media (max-width: 768px) {
-        .about .section-title h2, .section-services .section-title h2 {
+        .about .section-title h2,
+        .section-services .section-title h2 {
           font-size: 1.8rem; } }
-    .about .section-title div, .section-services .section-title div {
+    .about .section-title div,
+    .section-services .section-title div {
       display: flex;
       flex-direction: column;
       margin-top: 10px; }
-      .about .section-title div span, .section-services .section-title div span {
+      .about .section-title div span,
+      .section-services .section-title div span {
         text-transform: uppercase;
         color: #00E8C3;
         font-size: 1.3rem; }
-        .about .section-title div span:first-child, .section-services .section-title div span:first-child {
+        .about .section-title div span:first-child,
+        .section-services .section-title div span:first-child {
           color: #00E8C3; }
-        .about .section-title div span.description-title, .section-services .section-title div span.description-title {
+        .about .section-title div span.description-title,
+        .section-services .section-title div span.description-title {
           color: var(--default-color);
           font-size: 0.9rem; }
 
@@ -115,49 +125,60 @@ html, body {
       .about-image .experience-badge .years {
         font-size: 2rem; } }
 
-.about-content h2, .service-header h2 {
+.about-content h2,
+.service-header h2 {
   font-size: 2.2rem;
   margin-bottom: 1.25rem;
   font-weight: 700; }
   @media (max-width: 768px) {
-    .about-content h2, .service-header h2 {
+    .about-content h2,
+    .service-header h2 {
       font-size: 1.8rem; } }
-.about-content .lead, .service-header .lead {
+.about-content .lead,
+.service-header .lead {
   font-size: 1.15rem;
   margin-bottom: 1.25rem;
   color: color-mix(in srgb, #00E8C3, transparent 30%); }
-.about-content p, .service-header p {
+.about-content p,
+.service-header p {
   margin-bottom: 1rem; }
-.about-content .feature-item, .service-header .feature-item {
+.about-content .feature-item,
+.service-header .feature-item {
   padding: 1.25rem;
   background-color: #1b262c;
   border-radius: 8px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   height: 100%;
   transition: all 0.3s ease; }
-  .about-content .feature-item:hover, .service-header .feature-item:hover {
+  .about-content .feature-item:hover,
+  .service-header .feature-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); }
-  .about-content .feature-item i, .service-header .feature-item i {
+  .about-content .feature-item i,
+  .service-header .feature-item i {
     font-size: 1.75rem;
     color: #00E8C3;
     margin-bottom: 0.75rem;
     display: block; }
-  .about-content .feature-item h5, .service-header .feature-item h5 {
+  .about-content .feature-item h5,
+  .service-header .feature-item h5 {
     font-size: 1.15rem;
     margin-bottom: 0.75rem;
     font-weight: 600; }
-  .about-content .feature-item p, .service-header .feature-item p {
+  .about-content .feature-item p,
+  .service-header .feature-item p {
     font-size: 0.9rem;
     margin-bottom: 0; }
-.about-content .btn-primary, .service-header .btn-primary {
+.about-content .btn-primary,
+.service-header .btn-primary {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   padding: 0.5rem 1.5rem;
   border-radius: 50px;
   font-weight: 500;
   color: var(--contrast-color); }
-  .about-content .btn-primary:hover, .service-header .btn-primary:hover {
+  .about-content .btn-primary:hover,
+  .service-header .btn-primary:hover {
     background-color: color-mix(in srgb, var(--accent-color), black 10%);
     border-color: color-mix(in srgb, var(--accent-color), black 10%); }
 
@@ -204,9 +225,11 @@ html, body {
       .services .service-header .service-summary .service-btn:hover i {
         transform: translateX(5px); }
 .services .service-card {
-  padding: 40px;
-  margin-bottom: 30px;
-  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  padding: 1.25rem;
+  background-color: #1b262c;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
   transition: all 0.3s ease;
   position: relative; }
   .services .service-card .service-icon {
