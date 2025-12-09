@@ -119,7 +119,7 @@
                 <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
-                            <i class="bi bi-palette"></i>
+                            <i class="bi-bar-chart-line"></i>
                         </div>
                         <a href="service-details.html"
                             class="card-action d-flex align-items-center justify-content-center rounded-circle">
@@ -127,19 +127,18 @@
                         </a>
                         <h3>
                             <a href="service-details.html">
-                                Creative <span>branding</span>
+                                Winauditor <span>Audit et contrôle simplifiés</span>
                             </a>
                         </h3>
                         <p>
-                            Nulla facilisi. Maecenas eget magna neque. Suspendisse potenti. Curabitur eleifend nisi non
-                            magna vulputate, vel condimentum libero tempus. Proin consectetur feugiat diam.
+                            Winauditor vous permet de suivre et d’analyser vos comptes en toute transparence. Grâce à ses outils d’audit automatisés, vos finances sont fiables et sécurisées, et vous gardez l’esprit tranquille.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
-                            <i class="bi bi-gem"></i>
+                            <i class="bi-gear"></i>
                         </div>
                         <a href="service-details.html"
                             class="card-action d-flex align-items-center justify-content-center rounded-circle">
@@ -147,19 +146,18 @@
                         </a>
                         <h3>
                             <a href="service-details.html">
-                                Design <span>systems</span>
+                                Fid-Manager <span>Gestion fiduciaire optimisée</span>
                             </a>
                         </h3>
                         <p>
-                            Praesent euismod varius tellus, vel bibendum nunc interdum at. Donec vehicula diam vel metus
-                            venenatis convallis. Aliquam erat volutpat. Etiam viverra magna sit amet.
+                            Fid-Manager centralise toutes vos opérations comptables et administratives. Il facilite le suivi des dossiers clients, la planification des tâches et garantit une organisation efficace au quotidien.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
-                            <i class="bi bi-graph-up"></i>
+                            <i class="bi-file-earmark-text"></i>
                         </div>
                         <a href="service-details.html"
                             class="card-action d-flex align-items-center justify-content-center rounded-circle">
@@ -167,19 +165,18 @@
                         </a>
                         <h3>
                             <a href="service-details.html">
-                                Growth <span>acceleration</span>
+                                TwinTax <span>Déclarations fiscales</span>
                             </a>
                         </h3>
                         <p>
-                            Aenean vel augue vel nisi bibendum posuere. Phasellus in lacus quis urna sodales dignissim. Duis
-                            aliquam libero eget risus facilisis. Quisque eget libero vel nisl fringilla.
+                            TwinTax simplifie vos obligations fiscales grâce à des outils intuitifs de calcul et de déclaration. Optimisez vos taxes et soyez toujours en conformité avec les réglementations en vigueur.
                         </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
-                            <i class="bi bi-camera-video"></i>
+                            <i class="bi-clipboard-check"></i>
                         </div>
                         <a href="service-details.html"
                             class="card-action d-flex align-items-center justify-content-center rounded-circle">
@@ -187,12 +184,11 @@
                         </a>
                         <h3>
                             <a href="service-details.html">
-                                Media <span>solutions</span>
+                                Coda Clean <span>Comptabilité propre et structurée</span>
                             </a>
                         </h3>
                         <p>
-                            Etiam efficitur lacus in diam finibus, nec ultrices est sagittis. Maecenas elementum magna sed
-                            risus faucibus, nec commodo purus facilisis. Vestibulum accumsan magna.
+                            Coda Clean automatise le nettoyage et la structuration de vos données comptables. Fini les doublons et les erreurs : vos comptes sont clairs, fiables et prêts à l’analyse.
                         </p>
                     </div>
                 </div>

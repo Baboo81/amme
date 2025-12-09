@@ -1,15 +1,16 @@
+
 // ---------------------------------------------------
-// 1. Bootstrap en Dart Sass
+// 1. Tes outils Sass (variables, mixins…)
+// ---------------------------------------------------
+@use 'variables' as *;
+@use 'mixins' as *;
+
+// ---------------------------------------------------
+// 2. Bootstrap en Dart Sass
 // ---------------------------------------------------
 // Assure-toi que Bootstrap est installé via npm
 // npm install bootstrap
 @use "../../node_modules/bootstrap/scss/bootstrap" as *;
-
-// ---------------------------------------------------
-// 2. Tes outils Sass (variables, mixins…)
-// ---------------------------------------------------
-@use 'variables' as *;
-@use 'mixins' as *;
 
 // ---------------------------------------------------
 // 3. Les layouts
@@ -26,6 +27,11 @@ $vert: #7FB8A6;
 $vertP: #BFE5D7;
 $vertAqua: #F3FFFD;
 $gris: #1b262c;
+$accent-color: #00E8C3;
+$default-color: #ffffff;
+$heading-color: #ffffff;
+$contrast-color: #1a1a1a;
+$surface-color: rgba(255,255,255,0.05);
 
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
@@ -36,6 +42,11 @@ $gris: #1b262c;
     --vertP: #{$vertP};
     --vertAqua: #{$vertAqua};
     --gris: #{$gris};
+    --accent-color: #{$accent-color};
+    --default-color: #{$default-color};
+    --heading-color: #{$heading-color};
+    --contrast-color: #{$contrast-color};
+    --surface-color: #{$surface-color};
 }
 
 
@@ -360,8 +371,8 @@ body {
             height: 64px;
 
             i {
-                font-size: 32px;
-                color: var(--accent-color);
+                font-size: 1.75rem;
+                color: $turquoise;
                 transition: all 0.3s ease;
             }
         }

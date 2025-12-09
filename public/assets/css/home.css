@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-@use "../../node_modules/bootstrap/scss/bootstrap" as *;
 @use 'variables' as *;
 @use 'mixins' as *;
+@use "../../node_modules/bootstrap/scss/bootstrap" as *;
 :root {
   --turquoise: #00E8C3;
   --vertF: #00998E;
   --vert: #7FB8A6;
   --vertP: #BFE5D7;
   --vertAqua: #F3FFFD;
-  --gris: #1b262c; }
+  --gris: #1b262c;
+  --accent-color: #00E8C3;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --contrast-color: #1a1a1a;
+  --surface-color: rgba(255, 255, 255, 0.05); }
 
 html,
 body {
@@ -242,8 +247,8 @@ body {
     width: 64px;
     height: 64px; }
     .services .service-card .service-icon i {
-      font-size: 32px;
-      color: var(--accent-color);
+      font-size: 1.75rem;
+      color: #00E8C3;
       transition: all 0.3s ease; }
   .services .service-card h3 {
     font-size: 28px;
