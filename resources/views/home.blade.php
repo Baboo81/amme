@@ -113,12 +113,13 @@
         <div class="container section-title" data-aos="fade-up">
             <div class="col-3">
                 <h2> {{ homeData()['outils']['mainTitle'] ?? '' }} </h2>
-                <div><span> {{ homeData()['outils']['subTitle'] ?? '' }} </span> <span class="description-title"></span></div>
+                <div><span> {{ homeData()['outils']['subTitle'] ?? '' }} </span> <span class="description-title"></span>
+                </div>
             </div>
         </div>
         <!-- End Section Title -->
         <div class="row justify-content-center my-5">
-            @foreach(homeData()['outils']['features'] as $feature)
+            @foreach (homeData()['outils']['features'] as $feature)
             <div class="col-lg-6 col-md-12 my-3" data-aos="fade-up" data-aos-delay="{{ $feature['delay'] }}">
                 <div class="service-card position-relative z-1">
                     <div class="service-icon">
@@ -145,13 +146,72 @@
 </section>
 
 {{-- Section : contact --}}
-<section class="contact">
+<section class="contact section-services">
     <div class="container">
-        <div class="row">
+        <!-- Section Title -->
+        <div class="section-title mb-5" data-aos="fade-up">
+            <div class="col-3">
+                <h2> {{ homeData()['contact']['mainTitle'] ?? '' }} </h2>
+                <div><span> {{ homeData()['contact']['subTitle'] ?? '' }} </span> <span
+                        class="description-title"></span></div>
+            </div>
+        </div>
+        <!-- End Section Title -->
+        <div class="row justify-content-center">
+
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+                <div class="service-card p-4 shadow-sm rounded-3 my-5">
+
+                    <h3 class="mb-4 text-center">
+                        Envoyez-moi un message
+                    </h3>
+
+                    <form method="POST" action="{{ route('contact.send') }}" class="row g-3">
+                        @csrf
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Nom</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="bi bi-person"></i></span>
+                                <input type="text" name="name" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label class="form-label fw-semibold">Email</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="bi bi-envelope-at"></i></span>
+                                <input type="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Sujet</label>
+                            <div class="input-group">
+                                <span class="input-group-text bg-light"><i class="bi bi-chat-left-dots"></i></span>
+                                <input type="text" name="subject" class="form-control" required>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <label class="form-label fw-semibold">Message</label>
+                            <textarea name="message" rows="4" class="form-control" required></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button class="btn btn-primary px-4 py-2 rounded-pill">
+                                <i class="bi bi-send-check me-2"></i>
+                                Envoyer le message
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
 {{-- Section : contact END --}}
-
 @endsection

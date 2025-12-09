@@ -73,5 +73,9 @@ return [
         ],
     ],
 ],
+'contact' => [
+    'mainTitle' => "Contact",
+    'subTitle' => "Laissez-moi un message",
+]
 
 ];

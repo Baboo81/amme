@@ -495,4 +495,26 @@ body {
     }
 }
 
-/* Section : About END*/
+/* Section : contact */
+/* Contact section */
+#contact .service-card {
+    background: #ffffff;
+    border: 1px solid #e6e6e6;
+    transition: 0.3s ease;
+}
+
+#contact .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+#contact .input-group-text {
+    border: none;
+    border-right: 1px solid #eee;
+}
+
+#contact button {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
