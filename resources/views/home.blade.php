@@ -111,12 +111,12 @@
             </div>
             <div class="service-header">
                 <h2 class="service-heading mb-5">
-                    <div>La digitalisation,</div>
-                    <div><span>au service de votre entreprise</span></div>
+                    <div>Technologies,</div>
+                    <div><span>au service de votre comptabilité</span></div>
                 </h2>
             </div>
             <div class="row justify-content-center my-5">
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
                             <i class="bi bi-palette"></i>
@@ -136,7 +136,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
                             <i class="bi bi-gem"></i>
@@ -156,47 +156,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                    <div class="service-card position-relative z-1">
-                        <div class="service-icon">
-                            <i class="bi bi-megaphone"></i>
-                        </div>
-                        <a href="service-details.html"
-                            class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                            <i class="bi bi-arrow-up-right"></i>
-                        </a>
-                        <h3>
-                            <a href="service-details.html">
-                                Marketing <span>strategies</span>
-                            </a>
-                        </h3>
-                        <p>
-                            Vivamus tempor velit id magna dictum, sed fermentum nisi faucibus. Integer nec pretium sapien.
-                            Fusce tincidunt ligula et purus consequat, ac pellentesque nulla eleifend.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="service-card position-relative z-1">
-                        <div class="service-icon">
-                            <i class="bi bi-code-slash"></i>
-                        </div>
-                        <a href="service-details.html"
-                            class="card-action d-flex align-items-center justify-content-center rounded-circle">
-                            <i class="bi bi-arrow-up-right"></i>
-                        </a>
-                        <h3>
-                            <a href="service-details.html">
-                                Digital <span>platforms</span>
-                            </a>
-                        </h3>
-                        <p>
-                            Cras fermentum odio eu feugiat malesuada. Vestibulum ante ipsum primis in faucibus orci luctus
-                            et accumsan cursus. Morbi placerat nulla vel nunc viverra accumsan.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
                             <i class="bi bi-graph-up"></i>
@@ -216,7 +176,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="300">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
                             <i class="bi bi-camera-video"></i>
