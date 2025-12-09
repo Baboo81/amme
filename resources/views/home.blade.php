@@ -162,11 +162,11 @@
             <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
                 <div class="service-card p-4 shadow-sm rounded-3 my-5">
 
-                    <h3 class="mb-4 text-center">
+                    <h3 class="my-5 text-center">
                         Envoyez-moi un message
                     </h3>
 
-                    <form method="POST" action="{{ route('contact.send') }}" class="row g-3">
+                    <form method="POST" action="{{ route('contact.send') }}" class="row g-3 my-5">
                         @csrf
 
                         <div class="col-md-6">
@@ -198,8 +198,8 @@
                             <textarea name="message" rows="4" class="form-control" required></textarea>
                         </div>
 
-                        <div class="text-center">
-                            <button class="btn btn-primary px-4 py-2 rounded-pill">
+                        <div class="text-center my-5">
+                            <button class="btn btn-outline-light px-4 py-2 rounded-pill">
                                 <i class="bi bi-send-check me-2"></i>
                                 Envoyer le message
                             </button>

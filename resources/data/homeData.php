@@ -57,7 +57,7 @@ return [
         ],
         [
             'icon' => 'bi-file-earmark-text',
-            'title' => 'TwinTax',
+            'title' => 'TwinnTax',
             'subtitle' => 'Déclarations fiscales',
             'text' => 'TwinTax simplifie vos obligations fiscales grâce à des outils intuitifs de calcul et de déclaration. Optimisez vos taxes et soyez toujours en conformité avec les réglementations en vigueur.',
             'link' => 'service-details.html',
