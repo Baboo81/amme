@@ -116,7 +116,7 @@
                 </h2>
             </div>
             <div class="row justify-content-center my-5">
-                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6 col-md-12 my-3" data-aos="fade-up" data-aos-delay="100">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
                             <i class="bi-bar-chart-line"></i>
@@ -135,7 +135,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-lg-6 col-md-12 my-3" data-aos="fade-up" data-aos-delay="200">
                     <div class="service-card position-relative z-1">
                         <div class="service-icon">
                             <i class="bi-gear"></i>
