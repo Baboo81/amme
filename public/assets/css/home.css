@@ -255,10 +255,12 @@ body {
     margin-bottom: 15px;
     font-weight: 700; }
     .section-services .service-card h3 a {
-      color: var(--heading-color);
+      color: #BFE5D7;
+      text-decoration: none;
       transition: color 0.3s ease; }
       .section-services .service-card h3 a span {
-        display: block; }
+        display: block;
+        color: #00998E; }
       .section-services .service-card h3 a:hover {
         color: var(--accent-color); }
   .section-services .service-card p {
